@@ -49,3 +49,15 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 ## [Video Super-Resolution With Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/7444187)
 
 [Link do pdf](https://www.qiqindai.com/wp-content/uploads/2018/11/Video-Super-Resolution-With-Convolutional-Neural-Networks.pdf)
+
+## [Computed tomography super-resolution using convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/8297022)
+
+[Link do pdf](https://www.researchgate.net/profile/Zhangyang-Wang/publication/322789361_Computed_tomography_super-resolution_using_convolutional_neural_networks/links/5a6fec3c458515015e61eb0a/Computed-tomography-super-resolution-using-convolutional-neural-networks.pdf)
+
+## [Video Satellite Imagery Super Resolution via Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8101498)
+
+[Link do pdf](https://www.researchgate.net/profile/Yimin-Luo-3/publication/320954048_Video_Satellite_Imagery_Super_Resolution_via_Convolutional_Neural_Networks/links/5b9a674ba6fdccd3cb5031a2/Video-Satellite-Imagery-Super-Resolution-via-Convolutional-Neural-Networks.pdf)
+
+## [Super-Resolution Using Convolutional Neural Networks Without Any Checkerboard Artifacts](https://ieeexplore.ieee.org/abstract/document/8451141)
+
+[Link do artigo](https://arxiv.org/pdf/1806.02658.pdf)
