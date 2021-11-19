@@ -1,6 +1,6 @@
 # Alguns resumos dos artigos de pesquisa
 
-[A Statistical Prediction Model Based on Sparse Representations for Single Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/6739068)
+## [A Statistical Prediction Model Based on Sparse Representations for Single Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/6739068)
 
 [Um link para uma explicação do artigo no youtube](https://www.youtube.com/watch?v=7FUHte0RTTI)
 
@@ -8,3 +8,8 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 
 [Link para uma melhor aprofundamento sobre *sparse coding*](https://www.youtube.com/watch?v=7a0_iEruGoM)
 
+## [A Fully Progressive Approach to Single-Image Super-Resolution](https://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Wang_A_Fully_Progressive_CVPR_2018_paper.html)
+
+[Link do pdf](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Wang_A_Fully_Progressive_CVPR_2018_paper.pdf)
+
+[Link do Github](https://github.com/fperazzi/proSR)
