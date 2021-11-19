@@ -46,3 +46,6 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 
 [Link do pdf](https://www.researchgate.net/profile/Zeng-Kun-2/publication/284755272_Coupled_Deep_Autoencoder_for_Single_Image_Super-Resolution/links/577619a708aeb9427e275497/Coupled-Deep-Autoencoder-for-Single-Image-Super-Resolution.pdf)
 
+## [Video Super-Resolution With Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/7444187)
+
+[Link do pdf](https://www.qiqindai.com/wp-content/uploads/2018/11/Video-Super-Resolution-With-Convolutional-Neural-Networks.pdf)
