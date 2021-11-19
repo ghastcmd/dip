@@ -19,3 +19,9 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 [Link do pdf](https://arxiv.org/pdf/1811.09393.pdf)
 
 [Link do Github](https://github.com/thunil/TecoGAN)
+
+## [RAISR: Rapid and Accurate Image Super Resolution](https://arxiv.org/abs/1606.01299)
+
+[Link do pdf](https://arxiv.org/pdf/1606.01299.pdf)
+
+[Link do video](https://www.youtube.com/watch?v=WovbLx8C0yA)
