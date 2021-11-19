@@ -4,6 +4,8 @@
 
 [Um link para uma explicação do artigo no youtube](https://www.youtube.com/watch?v=7FUHte0RTTI)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/1)
+
 O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessário demonstrar o mesmo pela tangente que o artigo escolhido para ser apresentado faz; por se tratar de um modelo de super-resolução em uma única imagem que foi considerado um dos melhores antes da publicação artigo sobre SRCNN (o artigo do repositório), e tendo em vista que ele tem o mesmo objetivo e mais ou menos a mesma metodologia. O presente consegue uma aproximação estatística com representação esparsa (que é uma representação dos dados com o mínimo de valores possíveis — [uma melhor explicação](https://dsp.stackexchange.com/questions/47726/what-exactly-is-sparse-representation)) da imagem. Em suma, ele realiza predições sobre determinados atributos da imagem baseando-se em sua representação esparsa. Ele tem em sua implementação uma *Restricted Boltzman machine*, que consegue aprender distribuição probabilística com a entrada do programa.
 
 [Link para uma melhor aprofundamento sobre *sparse coding*](https://www.youtube.com/watch?v=7a0_iEruGoM)
@@ -14,6 +16,8 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 
 [Link do Github](https://github.com/fperazzi/proSR)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/2)
+
 O paper consegue demonstrar uma super resolução em uma única imagem utilizando a técnica progressiva de geração. Em suma, o que a técnica significa é que ele vai progressivamente aumentando resolvendo a tarefa, de modo que cada tarefa é algo fácil de ser resolvido, ou seja, para o nosso contexto, ela vai aumentando gradativamente a resolução até que consiga chegar no nosso resultado esperado. O artigo evidencia o uso de uma rede que consegue subtrair os serrilhados causados pelo escalonamento da imagem de baixa resolução para uma imagem maior (até 8 vezes maior), e depois que a imagem passa por essa rede, ela vai para uma rede adversária generativa que consegue implementar os detalhes menores, que dão mais resolução à imagem.
 
 ## [Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation (TecoGAN)](https://ge.in.tum.de/publications/2019-tecogan-chu/)
@@ -21,6 +25,8 @@ O paper consegue demonstrar uma super resolução em uma única imagem utilizand
 [Link do pdf](https://arxiv.org/pdf/1811.09393.pdf)
 
 [Link do Github](https://github.com/thunil/TecoGAN)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/3)
 
 
 
@@ -30,38 +36,58 @@ O paper consegue demonstrar uma super resolução em uma única imagem utilizand
 
 [Link do video](https://www.youtube.com/watch?v=WovbLx8C0yA)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/4)
+
 ## [Generative Adversarial Networks: An Overview](https://ieeexplore.ieee.org/abstract/document/8253599)
 
 [Link do pdf](https://arxiv.org/pdf/1710.07035.pdf)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/5)
 
 ## [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://openaccess.thecvf.com/content_eccv_2018_workshops/w25/html/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.html)
 
 [Linkdo pdf](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.pdf)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/6)
+
 ## [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://openaccess.thecvf.com/content_cvpr_2017/html/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.html)
 
 [Link do pdf](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/7)
 
 ## [Fast and Accurate Single Image Super-Resolution via Information Distillation Network](https://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
 [Link do pdf](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hui_Fast_and_Accurate_CVPR_2018_paper.pdf)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/8)
+
 ## [Coupled Deep Autoencoder for Single Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/7339460)
 
 [Link do pdf](https://www.researchgate.net/profile/Zeng-Kun-2/publication/284755272_Coupled_Deep_Autoencoder_for_Single_Image_Super-Resolution/links/577619a708aeb9427e275497/Coupled-Deep-Autoencoder-for-Single-Image-Super-Resolution.pdf)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/9)
 
 ## [Video Super-Resolution With Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/7444187)
 
 [Link do pdf](https://www.qiqindai.com/wp-content/uploads/2018/11/Video-Super-Resolution-With-Convolutional-Neural-Networks.pdf)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/10)
+
 ## [Computed tomography super-resolution using convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/8297022)
 
 [Link do pdf](https://www.researchgate.net/profile/Zhangyang-Wang/publication/322789361_Computed_tomography_super-resolution_using_convolutional_neural_networks/links/5a6fec3c458515015e61eb0a/Computed-tomography-super-resolution-using-convolutional-neural-networks.pdf)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/11)
 
 ## [Video Satellite Imagery Super Resolution via Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8101498)
 
 [Link do pdf](https://www.researchgate.net/profile/Yimin-Luo-3/publication/320954048_Video_Satellite_Imagery_Super_Resolution_via_Convolutional_Neural_Networks/links/5b9a674ba6fdccd3cb5031a2/Video-Satellite-Imagery-Super-Resolution-via-Convolutional-Neural-Networks.pdf)
 
+[Link do issue](https://github.com/ghastcmd/dip/issues/12)
+
 ## [Super-Resolution Using Convolutional Neural Networks Without Any Checkerboard Artifacts](https://ieeexplore.ieee.org/abstract/document/8451141)
 
 [Link do pdf](https://arxiv.org/pdf/1806.02658.pdf)
+
+[Link do issue](https://github.com/ghastcmd/dip/issues/13)
