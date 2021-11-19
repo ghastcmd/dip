@@ -41,3 +41,8 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 ## [Fast and Accurate Single Image Super-Resolution via Information Distillation Network](https://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
 [Link do pdf](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hui_Fast_and_Accurate_CVPR_2018_paper.pdf)
+
+## [Coupled Deep Autoencoder for Single Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/7339460)
+
+[Link do pdf](https://www.researchgate.net/profile/Zeng-Kun-2/publication/284755272_Coupled_Deep_Autoencoder_for_Single_Image_Super-Resolution/links/577619a708aeb9427e275497/Coupled-Deep-Autoencoder-for-Single-Image-Super-Resolution.pdf)
+
