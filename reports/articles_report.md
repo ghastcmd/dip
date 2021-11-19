@@ -14,11 +14,15 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 
 [Link do Github](https://github.com/fperazzi/proSR)
 
+O paper consegue demonstrar uma super resolução em uma única imagem utilizando a técnica progressiva de geração. Em suma, o que a técnica significa é que ele vai progressivamente aumentando resolvendo a tarefa, de modo que cada tarefa é algo fácil de ser resolvido, ou seja, para o nosso contexto, ela vai aumentando gradativamente a resolução até que consiga chegar no nosso resultado esperado. O artigo evidencia o uso de uma rede que consegue subtrair os serrilhados causados pelo escalonamento da imagem de baixa resolução para uma imagem maior (até 8 vezes maior), e depois que a imagem passa por essa rede, ela vai para uma rede adversária generativa que consegue implementar os detalhes menores, que dão mais resolução à imagem.
+
 ## [Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation (TecoGAN)](https://ge.in.tum.de/publications/2019-tecogan-chu/)
 
 [Link do pdf](https://arxiv.org/pdf/1811.09393.pdf)
 
 [Link do Github](https://github.com/thunil/TecoGAN)
+
+
 
 ## [RAISR: Rapid and Accurate Image Super Resolution](https://arxiv.org/abs/1606.01299)
 
@@ -60,4 +64,4 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 
 ## [Super-Resolution Using Convolutional Neural Networks Without Any Checkerboard Artifacts](https://ieeexplore.ieee.org/abstract/document/8451141)
 
-[Link do artigo](https://arxiv.org/pdf/1806.02658.pdf)
+[Link do pdf](https://arxiv.org/pdf/1806.02658.pdf)
