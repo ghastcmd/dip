@@ -13,3 +13,9 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 [Link do pdf](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Wang_A_Fully_Progressive_CVPR_2018_paper.pdf)
 
 [Link do Github](https://github.com/fperazzi/proSR)
+
+## [Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation (TecoGAN)](https://ge.in.tum.de/publications/2019-tecogan-chu/)
+
+[Link do pdf](https://arxiv.org/pdf/1811.09393.pdf)
+
+[Link do Github](https://github.com/thunil/TecoGAN)
