@@ -25,3 +25,11 @@ O artigo é fechado (sua distribuição não é gratúita), mas vi ser necessár
 [Link do pdf](https://arxiv.org/pdf/1606.01299.pdf)
 
 [Link do video](https://www.youtube.com/watch?v=WovbLx8C0yA)
+
+## [Generative Adversarial Networks: An Overview](https://ieeexplore.ieee.org/abstract/document/8253599)
+
+[Link do pdf](https://arxiv.org/pdf/1710.07035.pdf)
+
+## [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://openaccess.thecvf.com/content_eccv_2018_workshops/w25/html/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.html)
+
+[Linkdo pdf](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.pdf)
