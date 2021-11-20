@@ -38,13 +38,15 @@ O presente artigo perfoma a façanha de aumentar a resolução (técnica de supe
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/4)
 
-O paper utiliza técnicas de aprendizado de máquina (sem ser a rede neural) para conseguir realizar o upscaling (aumentar a imagem), para uma resolução maior, e, talvez, conseguir adicionar mais detalhes às imagens, uma vez que elas se apresentam em um estado empobrecido devido ao escalonamento anterior que degradou parte da informação da imagem. Não é para a técnica ser confundida com *Image Inpainting*, que é uma técnica que substitui uma parte da imagem baseada nos arredores da mesma. O algoritmo do artigo 
+O paper utiliza técnicas de aprendizado de máquina (sem ser a rede neural) para conseguir realizar o upscaling (aumentar a imagem), para uma resolução maior, e, talvez, conseguir adicionar mais detalhes a elas, uma vez que elas se apresentam em um estado empobrecido devido ao escalonamento anterior que degradou parte da informação da imagem. Não é para a técnica ser confundida com *Image Inpainting*, que é uma técnica que substitui uma parte da imagem baseada nos arredores da mesma. O algoritmo do artigo é altamente rápido e apresentou resultados superiores aqueles do artigo que estamos apresentando, além de ser melhor que os métodos manuais, para citar alguns: Nearest-Neighbor, SRCNN, A+.
 
 ## [Generative Adversarial Networks: An Overview](https://ieeexplore.ieee.org/abstract/document/8253599)
 
 [Link do pdf](https://arxiv.org/pdf/1710.07035.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/5)
+
+
 
 ## [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://openaccess.thecvf.com/content_eccv_2018_workshops/w25/html/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.html)
 
