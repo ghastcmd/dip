@@ -28,7 +28,7 @@ O paper consegue demonstrar uma super resolução em uma única imagem utilizand
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/3)
 
-
+O presente artigo perfoma a façanha de aumentar a resolução (técnica de super resolução) com coerência temporal, ou seja, consegue performar aumento de resolução em imagens sequenciais, um vídeo, por assim dizer. Ele o realiza com a utilização de uma rede neural generativa, que diferente dos outros métodos que utilizam a mesma técnica de rede neural, consegue fazer a super resolução gerando muito poucos artefatos, ou então nenhum artefato, além de aprensetar maiores acréssimos de detalhes em comparação com outros métodos que realizam a mesma coisa. Além disso, ele consegue melhorar simulações física de partículas, em que outras técnicas de melhoramento dessas simulações precisavam ter um certo conhecimento de alguns parâmetros das partículas como velocidade, volume, esparsidade, porém, a presente técnica precisa somente das informações contidas na própria imagem do vídeo e já consegue performar melhor que a majoritariedade das outras técnicas anteriores.
 
 ## [RAISR: Rapid and Accurate Image Super Resolution](https://arxiv.org/abs/1606.01299)
 
@@ -37,6 +37,8 @@ O paper consegue demonstrar uma super resolução em uma única imagem utilizand
 [Link do video](https://www.youtube.com/watch?v=WovbLx8C0yA)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/4)
+
+O paper utiliza técnicas de aprendizado de máquina (sem ser a rede neural) para conseguir realizar o upscaling (aumentar a imagem), para uma resolução maior, e, talvez, conseguir adicionar mais detalhes às imagens, uma vez que elas se apresentam em um estado empobrecido devido ao escalonamento anterior que degradou parte da informação da imagem. Não é para a técnica ser confundida com *Image Inpainting*, que é uma técnica que substitui uma parte da imagem baseada nos arredores da mesma. O algoritmo do artigo 
 
 ## [Generative Adversarial Networks: An Overview](https://ieeexplore.ieee.org/abstract/document/8253599)
 
