@@ -62,7 +62,7 @@ O artigo explica o que é uma rede neural adversarial generativa, e suas princip
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/7)
 
-
+O artigo apresenta uma rede neural adversarial generativa com a intenção de realizar super resolução de uma única imagem de forma que o resultado seja o mais fotorrealista possível. Faz-se uso de uma rede residual com vários caminhos de pulo de conexão (típico de redes residuais). Ela faz uma comparação com o nosso artigo escolhido, dizendo que caso a rede neural fosse mais profunda, ela conseguiria um resultado melhor. Não só a rede generativa utiliza uma rede neural mais profunda, como também tem mais parâmetros de treinos em outras formas, como por exemplo no filtro de escalonamento. Além disso, ela utiliza uma função de perca (*loss function*) diferente a da MSE (Mean Squared Error), que é a *Perceptual loss function* que ela opera sobre o erro das partes características perceptíveis das imagens, ao invés do erro por pixel feita pela MSE.
 
 ## [Fast and Accurate Single Image Super-Resolution via Information Distillation Network](https://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
