@@ -46,19 +46,23 @@ O paper utiliza técnicas de aprendizado de máquina (sem ser a rede neural) par
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/5)
 
+O artigo explica o que é uma rede neural adversarial generativa, e suas principais aplicações; no final ela mostra vários outros *papers* que utilizam a técnica para as mais diversas aplicações. O que é uma rede neural generativa adversarial? Basicamente é uma rede que contém uma parde que gera (a rede generativa), e a parte da rede que diz se a determinada saída da rede generativa é real ou não, ou seja se foi gerada artificialmente ou não (essa parte da rede é chamada de rede descriminadora). Com esse empasse entre gerar uma saída e dizer se ela é real ou não, a rede vai aprendendo cada vez mais, tanto a como detectar uma imagem falsa, quanto a gerar uma imagem cada vez mais real.
 
+## [Accelerating the Super-Resolution Convolutional Neural Network](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_25)
 
-## [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://openaccess.thecvf.com/content_eccv_2018_workshops/w25/html/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.html)
-
-[Linkdo pdf](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.pdf)
+[Linkdo pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46475-6_25.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/6)
+
+
 
 ## [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://openaccess.thecvf.com/content_cvpr_2017/html/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.html)
 
 [Link do pdf](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/7)
+
+
 
 ## [Fast and Accurate Single Image Super-Resolution via Information Distillation Network](https://openaccess.thecvf.com/content_cvpr_2018/html/Hui_Fast_and_Accurate_CVPR_2018_paper.html)
 
