@@ -78,11 +78,15 @@ O artigo tem como foco principal demonstrar uma super resolução de imagens de 
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/9)
 
+O paper tem como objetivo realizar a super resolução de imagens utilizando um par de autoencoders. Ele explica que vai utilizar dois autoencoders (que é uma rede neural que é melhor descrita por conseguir reconstruir uma entrada baseada na codificação da rede neural), é uma rede que consegue uma representação diferenciada de uma dada entrada. Com essas duas redes, ele consegue distilar a representação intrínseca das imagens de baixa resolução e de alta resolução, e então, executa o mapeamento entre essas duas partes da rede. É explicado também que esse processo do autoencoder de baixa resolução e de alta resolução são processo sem dependência, portanto são treinados em paralelo.
+
 ## [Video Super-Resolution With Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/7444187)
 
 [Link do pdf](https://www.qiqindai.com/wp-content/uploads/2018/11/Video-Super-Resolution-With-Convolutional-Neural-Networks.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/10)
+
+Explica como aplicar super resolução em vídeo, e para isso demonstra três arquiteturas diferentes. Tem uma parte do início que explica como que uma representação esparsa da imagem pode ser vista como uma camada numa rede neural e cada átomo da representação esparsa pode ser visto como um filtro na rede neural. Primeiramente, pretreinam a rede neural convolucional para conseguie atingir super resolução em únicos quadros. Como dito anteiormente, são apresentados três tipos de arquiteturas de redes neurais para super resolução do vídeo; todas elas utilizam a rede pretreinada de super resolução de imagem. Para a parte do vídeo, o que é feito é a concatenação dos quadros da vizinhaça, ou seja, caso queiramos a super resolução do quadro t, teremos que por na rede o quadro t-1 e t+1, assim, teremos uma melhor coerência da imagem com relação ao tempo, uma coerência temporal.
 
 ## [Computed tomography super-resolution using convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/8297022)
 
