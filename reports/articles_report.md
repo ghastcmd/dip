@@ -94,6 +94,8 @@ Explica como aplicar super resolução em vídeo, e para isso demonstra três ar
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/11)
 
+Existe um dilema muito grande nas imagens de tomografia computadorizada, ter que balancear a quantidade de raios-x que o paciente leva, com a qualidade da imagem. O que ocorre é que para uma melhor imagem é necessário uma maior exposição aos raios-x, com isso, quando se necessita de maiores especificações das imagens do procedimento, põe mais em risco a vida do paciente. Uma das soluções encontradas é a utilização de técnicas de super resolução de imagens, e o artigo demonstra isso utilizando uma rede neural convolucional. O artigo propõe dois metodos, um que utiliza uma única imagem e consegue as informações residuais que são somadas à imagem escalonada para criar o output de super resolução, e outro que toma do mesmo processo mas que utilizando-se várias fatias de fotos, e este é o que apresentou melhor resultado. Ambas são bem promissoras por terem apresentado resultados bem satisfatórios.
+
 ## [Video Satellite Imagery Super Resolution via Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8101498)
 
 [Link do pdf](https://www.researchgate.net/profile/Yimin-Luo-3/publication/320954048_Video_Satellite_Imagery_Super_Resolution_via_Convolutional_Neural_Networks/links/5b9a674ba6fdccd3cb5031a2/Video-Satellite-Imagery-Super-Resolution-via-Convolutional-Neural-Networks.pdf)
