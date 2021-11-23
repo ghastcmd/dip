@@ -54,7 +54,11 @@ O artigo explica o que é uma rede neural adversarial generativa, e suas princip
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/6)
 
+O presente artigo é um estudo sobre as redes neurais convolucionais que performarm super resolução. Ele compara alguns modelos e tem como objetivo demonstrar quais as técnicas que devem ou não serem feitas para conseguir a melhor performance e eficiência. O que me chamou atenção é a comparação que ele fez com o artigo que nós escolhemos com uma arquitetura chamada FSRCNN, esta que é uma rede que possui uma rede mais profunda e filtros com o núcleo menor, ela consegue performar mais rápido tanto em tempo de execução quanto em tempo de treino por possuir menos parâmetros. Ela também tem a parte de escalonamento treinável, o que permite que consigamos uma melhor acurárcia por termos mais filtros de treino significantes. 
+    
+A tabela a seguir é um bom resumo dos resultados encontrados no artigo:
 
+![Tabela de comparação](comparison-table-srcnn-fsrcnn.png)
 
 ## [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://openaccess.thecvf.com/content_cvpr_2017/html/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.html)
 
