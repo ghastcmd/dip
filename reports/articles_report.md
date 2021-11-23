@@ -102,6 +102,8 @@ Existe um dilema muito grande nas imagens de tomografia computadorizada, ter que
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/12)
 
+Tratando-se de imagens de satélite, o que mais ocorre com essas imagens é a degradação e compressão da imagem devido à natureza dos processos de aquisição. Para mlehor resolver isso, e conseguir fotos com mais informações espaciais de maiores resoluções com o uso de um método de super resolução utilizando uma rede neural convolucional. A arquitetura da rede neural utilizada é uma rede convolucional de 20 camadas VDSR (Very Deep Super Resolution — Super Resolução Muito Profunda) para super resolução, para conseguir extrair os detalhes mais característicos, e utiliza as métricas MSE e PSNR. Os resultados são bem satisfatórios, sendo superiores tanto às técnicas de interpolação bicubica, SRCNN (o nosso artigo apresentado) e VDSR.
+
 ## [Super-Resolution Using Convolutional Neural Networks Without Any Checkerboard Artifacts](https://ieeexplore.ieee.org/abstract/document/8451141)
 
 [Link do pdf](https://arxiv.org/pdf/1806.02658.pdf)
