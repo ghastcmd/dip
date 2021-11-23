@@ -109,3 +109,5 @@ Tratando-se de imagens de satélite, o que mais ocorre com essas imagens é a de
 [Link do pdf](https://arxiv.org/pdf/1806.02658.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/13)
+
+A inteção do artigo é produzir super resolução sem gerar artefatos de xadrez nas imagens. Existem dois tipos de redes neurais para super resolução, um deles utiliza imagens escalonadas com interpolação, portanto não produzem os artefatos que estamos a estudar, e outro que utilizam de camadas de deconvolução para aumentar as imagens. São dispostos dois tipos de algoritmos em que se pode ser aplicado os métodos de remoção de artefatos xadrez, são eles: camadas de deconvolução e convulução sub-pixel. O artigo propõe três tipos de uso para o kernel de interpolação H0, que é treinar sem utilizar o H0, treinar utilizando o H0 e treinar utilizando o H0 dentro das camadas de escalonamento. Melhores definições para o kernel H0 estão presentes no artigo.
