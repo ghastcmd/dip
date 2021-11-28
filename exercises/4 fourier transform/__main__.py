@@ -37,19 +37,11 @@ def get_line(image):
 
 def plot_line(title, image, ms, ed, we):
     orig_t = [title + ' original', image]
-    # plt.imshow(image)
-    # plt.title()
     
-    # plt.imshow(ms)
-    # plt.title(title + ' ms')
     ms_t = [title + ' ms', ms]
     
-    # plt.imshow(ed)
-    # plt.title(title + ' ed')
     ed_t = [title + ' ed', ed]
     
-    # plt.imshow(we)
-    # plt.title(title + ' we')
     we_t = [title + ' we', we]
     return orig_t, ms_t, ed_t, we_t
     
@@ -65,6 +57,11 @@ IMGS = []
 def add_image(title, image):
     IMGS.append([title, image])
 
+def get_fft_mean_value(image):
+    fft_image = get_fft_image(image)
+    spectrum = get_magnitude_spectrum(fft_image)
+    return np.mean(spectrum)
+
 def plot_images():
     fig = plt.figure(figsize=(5,5))
     row_count = len(IMGS)
@@ -74,7 +71,10 @@ def plot_images():
             fig.add_subplot(row_count, 4, j * 4 + i + 1)
             plt.title(val[0])
             plt.imshow(val[1])
-        
+    
+    for title, img in IMGS:
+        print(title, 'blur values', get_fft_mean_value(img))
+    
     plt.show()
 
 octopus_img = cv2.imread('octopus.jpg',0)
