@@ -1,0 +1,1 @@
+Quando estive instalando as bibliotecas necessárias, tive que instalar uma versão mais antiga do python.
