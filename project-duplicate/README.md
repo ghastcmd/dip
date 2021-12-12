@@ -4,6 +4,16 @@ The original repository can be found in this [link](https://github.com/yjn870/SR
 
 The original README can be found [here](./ORIGINAL_README.md).
 
+The report for the issues encountered can be found [here](./REPORT.md)
+
+## Requirements
+
+- PyTorch 1.0.0
+- Numpy 1.15.4
+- Pillow 5.4.1
+- h5py 2.8.0
+- tqdm 4.30.0
+
 # Training
 
 These are the links for the datasets training datasets and evals:
