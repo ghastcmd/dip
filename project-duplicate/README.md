@@ -14,6 +14,17 @@ The report for the issues encountered can be found [here](./REPORT.md)
 - h5py 2.8.0
 - tqdm 4.30.0
 
+Although the requirements are more or less outdated, I ran the scripts with updated libraries and it ran perfectly.
+
+- Python 3.9.9
+- PyTorch 1.10.0+cu113
+- Numpy 1.21.4
+- Pillow 8.4.0
+- h5py 3.6.0
+- tqdm 4.62.3
+
+There is a requirements.txt script that gets all the required libraries.
+
 # Training
 
 These are the links for the datasets training datasets and evals:
