@@ -41,7 +41,7 @@ These are the links for the datasets training datasets and evals:
 Example usage for training:
 
 ```bash
-python train.py --train-file "PATH_TO_FOLDER/91-image_x3.h5" \
+python src/train.py --train-file "PATH_TO_FOLDER/91-image_x3.h5" \
                 --eval-file "PATH_TO_FOLDER/Set5_x3.h5" \
                 --outputs-dir "PATH_TO_FOLDER/outputs" \
                 --scale 3 \
@@ -63,7 +63,7 @@ Pre-trained weights can be downloaded from the links below.
 | 9-5-5 | 4 | [Download](https://www.dropbox.com/s/pd5b2ketm0oamhj/srcnn_x4.pth?dl=0) |
 
 ```bash
-python test.py --weights-file "PATH_TO_FOLDER/srcnn_x3.pth" \
+python src/test.py --weights-file "PATH_TO_FOLDER/srcnn_x3.pth" \
                --image-file "data/butterfly_GT.bmp" \
                --scale 3
 ```
