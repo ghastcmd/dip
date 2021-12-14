@@ -23,7 +23,7 @@ Although the requirements are more or less outdated, I ran the scripts with upda
 - h5py 3.6.0
 - tqdm 4.62.3
 
-There is a requirements.txt script that gets all the required libraries.
+There is a requirements.txt script that gets all the required libraries. If you want to install the pytorch separately, there is the `requirements_wo_pytorch.txt`.
 
 If the pytorch installation from the `requirements.txt` do not work, or if you want to install the version for the gpu, visit their [website](https://pytorch.org/get-started/locally/) for a better installation guide.
 
