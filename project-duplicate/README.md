@@ -25,7 +25,7 @@ Although the requirements are more or less outdated, I ran the scripts with upda
 
 There is a requirements.txt script that gets all the required libraries.
 
-If the pytorch installation from the `requirements.txt` do not work, visit their [website](https://pytorch.org/get-started/locally/) for a better installation guide.
+If the pytorch installation from the `requirements.txt` do not work, or if you want to install the version for the gpu, visit their [website](https://pytorch.org/get-started/locally/) for a better installation guide.
 
 # Training
 
@@ -51,7 +51,7 @@ python src/train.py --train-file "PATH_TO_FOLDER/91-image_x3.h5" \
                 --batch-size 16 \
                 --num-epochs 400 \
                 --num-workers 8 \
-                --seed 123                
+                --seed 123
 ```
 
 # Test/usage
