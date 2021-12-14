@@ -25,6 +25,8 @@ Although the requirements are more or less outdated, I ran the scripts with upda
 
 There is a requirements.txt script that gets all the required libraries.
 
+If the pytorch installation from the `requirements.txt` do not work, visit their [website](https://pytorch.org/get-started/locally/) for a better installation guide.
+
 # Training
 
 These are the links for the datasets training datasets and evals:
