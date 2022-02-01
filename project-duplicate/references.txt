@@ -1,0 +1,5 @@
+Those are the references for the expansion of the project
+
+https://pytorch.org/docs/stable/generated/torch.nn.ConvTranspose2d.html
+https://www.youtube.com/watch?v=zp8clK9yCro
+https://www.youtube.com/watch?v=y4DXr3Y10MM&list=PLea0WJq13cnB_ORdGzEkPlZEN20TSt6Lx&index=1
