@@ -42,7 +42,8 @@ if __name__ == '__main__':
     optimizer = optim.Adam([
         {'params': model.conv1.parameters()},
         {'params': model.conv2.parameters()},
-        {'params': model.conv3.parameters(), 'lr': args.lr * 0.1}
+        {'params': model.conv3.parameters()},
+        {'params': model.deconv.parameters(), 'lr': 1e-4 * 0.1}
     ], lr=args.lr)
 
     train_dataset = TrainDataset(args.train_file)
