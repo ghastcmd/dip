@@ -35,27 +35,39 @@ if __name__ == '__main__':
     image_width = (image.width // args.scale) * args.scale
     image_height = (image.height // args.scale) * args.scale
     image = image.resize((image_width, image_height), resample=pil_image.BICUBIC)
+    
+    orig_image = image.copy()
     image = image.resize((image.width // args.scale, image.height // args.scale), resample=pil_image.BICUBIC)
-    image = image.resize((image.width * args.scale, image.height * args.scale), resample=pil_image.BICUBIC)
+    # image = image.resize((image.width * args.scale, image.height * args.scale), resample=pil_image.BICUBIC)
     image.save(args.image_file.replace('.', '_bicubic_x{}.'.format(args.scale)))
 
     image = np.array(image).astype(np.float32)
-    ycbcr = convert_rgb_to_ycbcr(image)
+    image_ycbcr = convert_rgb_to_ycbcr(image)
+    
+    orig_image = np.array(orig_image).astype(np.float32)
+    orig_image_ycbcr = convert_rgb_to_ycbcr(orig_image)
+    
+    orig_image_y = orig_image_ycbcr[..., 0]
+    orig_image_y /= 255.
+    orig_image_y = torch.from_numpy(orig_image_y).to(device)
+    orig_image_y = orig_image_y.unsqueeze(0).unsqueeze(0)
 
-    y = ycbcr[..., 0]
-    y /= 255.
-    y = torch.from_numpy(y).to(device)
-    y = y.unsqueeze(0).unsqueeze(0)
+    image_y = image_ycbcr[..., 0]
+    image_y /= 255.
+    image_y = torch.from_numpy(image_y).to(device)
+    image_y = image_y.unsqueeze(0).unsqueeze(0)
 
     with torch.no_grad():
-        preds = model(y).clamp(0.0, 1.0)
+        preds = model(image_y).clamp(0.0, 1.0)
 
-    psnr = calc_psnr(y, preds)
+    print(preds.shape, orig_image_y.shape)
+
+    psnr = calc_psnr(orig_image_y, preds)
     print('PSNR: {:.2f}'.format(psnr))
 
     preds = preds.mul(255.0).cpu().numpy().squeeze(0).squeeze(0)
 
-    output = np.array([preds, ycbcr[..., 1], ycbcr[..., 2]]).transpose([1, 2, 0])
+    output = np.array([preds, orig_image_ycbcr[..., 1], orig_image_ycbcr[..., 2]]).transpose([1, 2, 0])
     output = np.clip(convert_ycbcr_to_rgb(output), 0.0, 255.0).astype(np.uint8)
     output = pil_image.fromarray(output)
     output.save(args.image_file.replace('.', '_srcnn_x{}.'.format(args.scale)))
