@@ -1,6 +1,8 @@
+from re import I
 import PIL.Image as pil_image
 import h5py
 import numpy as np
+import argparse
 
 def conv_train_file(dataset_input, dataset_output):
     high_res_images: list = []
@@ -43,3 +45,22 @@ def conv_test_file(dataset_input, dataset_output):
         for index in [str(x) for x in range(5)]:
             lr_imgs.create_dataset(index, data=np.array(low_res_images[index]))
             hr_imgs.create_dataset(index, data=np.array(high_res_images[index]))
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dataset-file', type=str, required=True)
+    parser.add_argument('--output-file', type=str, required=True)
+    args = parser.parse_args()
+    
+    is_train_file = False
+    
+    with h5py.File(args.dataset_file, 'r') as hdf:
+        try:
+            _ = hdf['hr']['0'][:,:]
+        except:
+            is_train_file = True
+    
+    if is_train_file:
+        conv_train_file(args.dataset_file, args.output_file)
+    else:
+        conv_test_file(args.dataset_file, args.output_file) 
