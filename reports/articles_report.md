@@ -55,7 +55,7 @@ O artigo explica o que é uma rede neural adversarial generativa, e suas princip
 
 # [Accelerating the Super-Resolution Convolutional Neural Network](https://link.springer.com/chapter/10.1007/978-3-319-46475-6_25)
 
-[Linkdo pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46475-6_25.pdf)
+[Link do pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-46475-6_25.pdf)
 
 [Link do issue](https://github.com/ghastcmd/dip/issues/6)
 
