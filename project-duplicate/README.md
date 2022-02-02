@@ -1,3 +1,7 @@
+# Important warning
+
+The expansion of the project (using the new upscaling method) is **only featured** with the **x2 scale**.
+
 # Project duplicate of a pytorch implementation of SRCNN
 
 The original repository can be found in this [link](https://github.com/yjn870/SRCNN-pytorch).
@@ -5,6 +9,19 @@ The original repository can be found in this [link](https://github.com/yjn870/SR
 The original README can be found [here](./ORIGINAL_README.md).
 
 The report for the issues encountered can be found [here](./REPORT.md)
+
+# The extension of the project
+
+The professor from the discipline told us to expand the chosen project with more funcionality, to do so, I chose to implement a layer on the neural network model that can upscale the image, instead of using the bicubic method to upscale; and that, as seen in my research, can increase the performance of the super-resolution for quite a bit.
+
+This branch of the repository have all the necessary tools for using this new upscaling method. All you have to do is convert the train dataset and the eval dataset, and then train the model. To this, you will have to see this [section](To Conver the dataset).
+
+## To convert the dataset
+
+```bash
+python src/dataset_convert.py --dataset-file "PATH/dataset.h5" \
+               --output-file "PATH/dataset_converted.h5" \
+```
 
 ## Requirements
 
