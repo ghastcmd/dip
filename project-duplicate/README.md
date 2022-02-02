@@ -16,6 +16,8 @@ The professor from the discipline told us to expand the chosen project with more
 
 This branch of the repository have all the necessary tools for using this new upscaling method. All you have to do is convert the train dataset and the eval dataset, and then train the model. To this, you will have to see this [section](To Conver the dataset).
 
+[Link to the issue with the research](https://github.com/ghastcmd/dip/issues/6)
+
 ## To convert the dataset
 
 ```bash
